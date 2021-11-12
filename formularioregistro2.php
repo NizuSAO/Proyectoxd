@@ -1,5 +1,5 @@
 <?php
-	include("registrar.php") 
+	include("registrar2.php") 
 	 ?>
 <!DOCTYPE html> 
 <html>
@@ -12,7 +12,7 @@
 </head>
 <body>
 	<form method="post">
-	<h1 style="color: white">Listar los datos de la Sucursal 1</h1>
+	<h1 style="color: white">Listar los datos de la Sucursal 2</h1>
 	<section class="form-register">
 		<h3>Registro de ventas</h3>
 		<input class="controls" type="text" name="stock" placeholder="Ingrese si hay stock">

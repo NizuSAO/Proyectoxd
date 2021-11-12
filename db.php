@@ -1,4 +1,4 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "hardwaremachine");
+$conn = mysqli_connect("localhost", "root", "", "hardware_machine");
 
 ?>

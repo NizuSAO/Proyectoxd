@@ -10,7 +10,7 @@ if (isset($_POST['Registrar'])) {
 			$nomproducto = trim($_POST['nomproducto']);
 			$ventas = trim($_POST['ventas']);
 			$ganancias = trim($_POST['ganancias']);
-			$consulta = "INSERT INTO sucursal_1(`Stock`, `Precio`, `ID_producto`, `nom_producto`, `ventas`, `ganancias`) VALUES ('$stock','$precio','$idproducto','$nomproducto','$ventas','$ganancias')";
+			$consulta = "INSERT INTO sucursal_2(`Stock`, `Precio`, `ID_producto`, `nom_producto`, `ventas`, `ganancias`) VALUES ('$stock','$precio','$idproducto','$nomproducto','$ventas','$ganancias')";
 			$resultado = mysqli_query($conn,$consulta);
 			if (!$resultado){
 				die("error: ".mysqli_error($conn));
