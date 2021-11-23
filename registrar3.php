@@ -1,5 +1,5 @@
 <?php
-include("db.php");
+include('db.php');
 
 if (isset($_POST['Registrar'])) {
 	if (strlen($_POST['stock']) >= 1 && strlen($_POST['precio']) >= 1 && strlen($_POST['idproducto']) >= 1 && strlen($_POST['nomproducto']) >= 1 && strlen($_POST['ventas']) >= 1 && strlen($_POST['ganancias']) >= 1) 
@@ -15,7 +15,7 @@ if (isset($_POST['Registrar'])) {
 			if (!$resultado){
 				die("error: ".mysqli_error($conn));
 			} else {
-				header("location: cuentalogeada.html");
+				header("location: Diamond\mostrardatos3.php");
 			}
 		}
 }

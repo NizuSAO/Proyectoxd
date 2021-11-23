@@ -15,7 +15,7 @@ if (isset($_POST['Registrar'])) {
 			if (!$resultado){
 				die("error: ".mysqli_error($conn));
 			} else {
-				header("location: cuentalogeada.html");
+				header("location: Diamond\mostrardatos.php");
 			}
 		}
 }

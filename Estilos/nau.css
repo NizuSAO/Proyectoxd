@@ -1,0 +1,21 @@
+
+body{
+	background-image: url('V9.jpg');
+}
+
+table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+footer{
+	background-color: white;
+	margin-left: 450px;
+	margin-right: 450px;
+}
