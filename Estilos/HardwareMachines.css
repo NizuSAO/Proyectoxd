@@ -26,24 +26,7 @@ a {
     text-align: center;
 }
 
-iframe{
 
-    margin-top: 50px;
-    margin-left: 350px;
-
-
-}
-
-
-
-
-#fondomenu {
-
-    border: 2
-        
-    width: 485px;
-    height: 30px;
-    }
     #fondomenu ul {
         
     list-style: none;
@@ -65,3 +48,11 @@ iframe{
     #fondomenu ul li a:hover {
     color: #00FFDC;
     }
+
+    .inicio{
+
+        font: normal 25px;
+            background-repeat: no-repeat;
+color: white;
+width: 100%;
+}
