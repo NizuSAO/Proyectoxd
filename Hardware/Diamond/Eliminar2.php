@@ -9,7 +9,7 @@ $resul=mysqli_query($conexion,"DELETE FROM sucursal_2 WHERE ID_producto='$id'");
 		if (!$resul){
 				die("error: ".mysqli_error($conexion));
 			} else {
-				header("location: verificaciondelete.html");
+				header("location: mostrardatos2.php");
 			}
 
 
