@@ -10,7 +10,7 @@ $array = mysqli_fetch_array($query);
 if (!$consulta){
 				die("error: ".mysqli_error($conexion));
 			} else {
-				header("mostrardatos.php");
+				header("Diamond\mostrardatos.php");
 			}
 
 

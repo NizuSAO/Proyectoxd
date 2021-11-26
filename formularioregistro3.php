@@ -21,9 +21,9 @@
 		<input class="controls" type="text" name="nomproducto" placeholder="ingresar el nombre del producto">
 		<input class="controls" type="text" name="ventas" placeholder="ingresar la cantidad de ventas">
 		<input class="controls" type="text" name="ganancias" placeholder="ingresar las ganancias">
-		<p style="color: #00FFDC">Estoy de acuerdo con los <a href="terminosycondiciones.html">terminos y condiciones</a> </p>
 		<input class="botons" type="submit" name="Registrar"> 
-		<p><a style="color:white;" href="Diamond\mostrardatos3.php">Mostrar Datos</a><p>
+		<p><a style="color: black;" href="Diamond\mostrardatos3.php">Mostrar Datos</a><p>
+		<p><a style="color: black;" href="HardwareMachines.html">Inicio</a><p>
 	</section>
 	</form>
 

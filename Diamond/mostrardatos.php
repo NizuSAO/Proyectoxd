@@ -30,6 +30,7 @@ require('consulta.php');
 					<th>Producto</th>
 					<th>Ventas</th>
 					<th>Ganancias</th>
+					<th>Delete</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -42,6 +43,8 @@ require('consulta.php');
 					<td><?php echo $row['nom_producto']; ?></td>
 					<td><?php echo $row['ventas']; ?></td>
 					<td><?php echo $row['ganancias']; ?></td>
+					<td><p><a style="color: black;" href="Eliminardatos.php">Eliminar</a><p></td>
+</tr>
 				</tr>
 
 

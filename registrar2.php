@@ -17,6 +17,7 @@ if (isset($_POST['Registrar'])) {
 			} else {
 				header("location: Diamond\mostrardatos2.php");
 			}
+
 		}
 }
 ?>
