@@ -1,4 +1,4 @@
-<?php require_once("Diamond\conexion.php"); ?>
+<?php require_once("Hardware\Diamond\conexion.php"); ?>
 
 <?php
 
@@ -15,7 +15,7 @@ if ($nr == 1 )
 	{ 
 		if($nr == 1)
 			{	
-				header("Location: HardwareMachines.html");
+				header("Location: Hardware\HardwareMachines.html");
 			}
 		}
 }
