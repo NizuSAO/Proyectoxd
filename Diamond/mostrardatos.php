@@ -31,6 +31,7 @@ require('consulta.php');
 					<th>Ventas</th>
 					<th>Ganancias</th>
 					<th>Eliminar</th>
+					<th>Modificar</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -44,6 +45,7 @@ require('consulta.php');
 					<td><?php echo $row['ventas']; ?></td>
 					<td><?php echo $row['ganancias']; ?></td>
 					<td><p><a style="color: black;" href="Eliminardatos.php">Eliminar</a><p></td>
+					<td><p><a style="color: black;" href="Actualizardatos.php">Modificar</a><p></td>
 			</tbody>
 			<?php  
 			}
@@ -55,6 +57,7 @@ require('consulta.php');
 		<footer>
 			<center>
 				<h1><a href="../formularioregistro.php">volver a ingresar datos</a></h1>
+				<h1><a href="../HardwareMachines.html">Inicio</a></h1>
 			</center>
 		</footer>
 	</center>
