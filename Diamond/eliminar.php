@@ -1,11 +1,18 @@
-<?php/*
-	include "conexion.php";
+<?php 
+require('conexion.php');
 
-	eliminar($_GET['no']);
+if (isset($_POST['Eliminar'])) {
 
-	function eliminar($no)
-	{
-		$sentencia="DELETE FROM sucursal_1 WHERE no='".$no."' ";
-		mysqli_query($sentencia) or die (mysqli_error());
-	}
-*/?>
+$id = $_POST['idproducto'];
+
+$resul=mysqli_query($conexion,"DELETE FROM sucursal_1 WHERE ID_producto='$id'");
+		if (!$resul){
+				die("error: ".mysqli_error($conexion));
+			} else {
+				header("location: verificaciondelete.html");
+			}
+
+
+}
+
+ ?>
