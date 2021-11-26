@@ -29,7 +29,7 @@ require('consulta3.php');
 					<th>Producto</th>
 					<th>Ventas</th>
 					<th>Ganancias</th>
-					<th>Delete</th>
+					<th>Eliminar</th>
 				</tr>
 			</thead>
 			<tbody>
