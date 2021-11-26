@@ -50,6 +50,12 @@ require('consulta3.php');
 
 		</table>
 
+		<footer>
+			<center>
+				<h1><a href="../formularioregistro.php">volver a ingresar datos</a></h1>
+			</center>
+		</footer>
+
 	</center>
 
 

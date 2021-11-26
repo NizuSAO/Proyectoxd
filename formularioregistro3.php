@@ -1,6 +1,6 @@
 <?php
 	include('registrar3.php') 
-	 ?>
+?>
 <!DOCTYPE html> 
 <html>
 <head>
